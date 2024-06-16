@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<head>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="./site/assets/css/menu.css">
+  <link rel="stylesheet" href="./site/assets/css/rodape.css">
+  <link rel="stylesheet" href="./site/assets/css/perguntas-respostas.css">
+  <script src="./site/assets/js/rodape_respon-javascript.js" defer></script>
+  <script src="./site/assets/js/menu.js" defer></script>
+  <title>Perguntas & Respostas</title>
+</head>
+<body>
+  <header>
+    <section>
+        <nav class="nav-bar">
+            <div class="logo">
+                <a href="./index.html" class="nav-home">
+                    <img src="./site/assets/img/logo_empresa_cor.png" alt="Logo Infinity">
+                </a>
+            </div>
+
+            <div class="barra">
+                <input id="searchInput" class="pesquisa" placeholder="Pesquisar produto...">
+            </div>
+
+            <div class="nav-list">
+                <ul>
+                    <li class="nav-item"><a href="#" class="nav-link"><i class="bi bi-person-circle"></i>Entrar</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">|</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link"><i class="bi bi-cart-check-fill"></i>Carrinho</a></li>
+                </ul>
+            </div>
+
+            <div class="mobile-menu-icon">
+                <button onclick="toggleMobileMenu()"><i class="bi bi-list"></i></button>
+            </div>
+        </nav>
+
+        <div class="mobile-menu">
+            <ul class="nav-list">
+                <li class="nav-item"><a href="#" class="nav-link"><i class="bi bi-person-circle"></i>Entrar</a></li>
+                <li class="nav-item"><a href="#" class="nav-link"><i class="bi bi-cart-check-fill"></i>Carrinho</a></li>
+            </ul>
+            <div class="barra">
+                <input class="pesquisa" placeholder="Pesquisar produto.">
+            </div>
+        </div>
+    </section>
+  </header>
+  <main>
+    <section class="text-per">
+      <h1 class="pergH1">
+        Perguntas e Respostas:
+      </h1>
+
+      <h2 class="pergH2">
+        Dúvidas a respeito da compra:
+      </h2>
+
+      <h3 class="pergH3">
+        Quais métodos de pagamento vocês aceitam?
+      </h3>
+
+      <p>
+        Para os clientes do Brasil, atualmente nós aceitamos cartões de crédito 
+        Visa, Mastercard, Diners Club, Amex e Discover.<br> Caso não tenha um cartão de credito, 
+        você pode gerar um boleto para pagamento.
+      </p>
+      
+      <h3 class="pergH3">
+        Nunca comprei nesse site. É seguro?
+      </h3>
+
+      <p>
+        Nós temos o orgulho de utilizar sistemas de segurança online, protocolos e hospedagem 
+        altamente avançados, exatamente os mesmos que grandes marcas como Budweiser, Red Bull, 
+        Kylie Cosmetics e Tesla Motors usam. Na hora de pagar, nós não temos nenhum acesso aos 
+        dados do seu cartão de crédito. O pagamento é feito através do Mercado Pago, especializado
+        em ,pagamentos seguros na internet.
+      </p>
+
+      <h3 class="pergH3">
+        Vocês são acessíveis? Tenho medo de comprar e não conseguir entrar em contato depois.
+      </h3>
+
+      <p>
+        Somos sim. Temos informações bem explicadas sobre todos os processos relacionados à 
+        compra e à entrega em diversas partes do site, além de uma equipe especializada e 
+        dedicada para responder você em até 48h úteis.
+      </p>
+      
+      <h3 class="pergH3">
+        Posso usar mais de um cupom de desconto?
+      </h3>
+
+      <p>
+        Você pode usar apenas um cupom de desconto por compra. Mas existe uma forma de 
+        acumular descontos! Se estivermos fazendo alguma promoção sazonal e os produtos
+        já estejam sendo mostrados com desconto, você pode combinar isso com um campo de 
+        desconto para ganhar um desconto ainda maior.
+      </p>
+
+      <h3 class="pergH3">
+        Como faço para ter o frete grátis?
+      </h3>
+
+      <p>
+        Caso seu pedido contenha um dos produtos com “frete grátis” na descrição, 
+        todos os outros produtos que você escolher terão terão frete grátis também.
+      </p>
+
+      <h2 class="pergH2">
+        Alterações no pedido:
+      </h2>
+
+      <p>
+        Alterações no pedido podem ser feitas antes do envio dos produtos, o que ocorre, 
+        em média 3 dias úteis após a compra. Se eles já foram enviados e o código de rastreio
+        já foi providenciado, os produtos não estão mais ao nosso alcance e já saíram do nosso
+        centro de distribuição, portanto não podemos alterar nenhum aspecto do pedido.
+      </p>
+
+      <h3 class="pergH3">
+        Cadastrei com o endereço de e-mail errado. O que faço?
+      </h3> 
+
+      <p>
+        É só mandar pra gente um e-mail com o assunto “Alterar dados” informando o e-mail correto, 
+        que a gente resolve isso pra você! É importante ser um e-mail que você tem acesso frequente, 
+        porque é por lá que nós vamos enviar comunicados a respeito dos pedidos e te mandar ofertas exclusivas!
+      </p>
+
+      <h3 class="pergH3">
+        Vocês podem alterar o endereço de entrega?
+      </h3>
+
+      <p>
+        Se os produtos ainda não tiverem sido enviados, podemos sim! Basta nos enviar um e-mail com 
+        o assunto “Alterar dados”, que iremos tratá-lo com mais urgência para alterar o endereço antes 
+        que os produtos sejam enviados. Caso você entre em contato conosco somente após os produtos 
+        serem enviados, não temos como fazer essa alteração, pois eles não estão mais ao nosso alcance.
+      </p>
+
+      
+      <h2 class="pergH2">
+        Dúvidas sobre o envio do pedido:
+      </h2>
+
+      <h3 class="pergH3">
+        Qual o tempo de processamento, preparação e envio do pedido?
+      </h3>
+
+      <p>
+        A partir do momento que identificamos o pagamento, iniciamos a preparação do 
+        seu pedido. O tempo médio para envio dos produtos e disponibilização do código 
+        de rastreio é de 3 a 10 dias úteis, podendo variar em feriados e épocas de alto 
+        volume de compras.
+      </p>
+
+      <h3 class="pergH3">
+        A partir de quanto tempo eu consigo rastrear o meu pedido?
+      </h3>
+
+      <p>
+        O código de rastreio é disponibilizado e enviado automaticamente assim que 
+        o produto é postado, cerca de 3 a 10 dias úteis após a compra. <br>O pedido pode 
+        ser rastreado através da nossa página <strong>Rastreie o seu pedido.</strong>
+      </p>
+      <p>
+        Caso apareça a mensagem “não encontrado”, não se preocupe!
+        O sistema dos Correios demora de 5 a 10 dias para que códigos 
+        de rastreio internacionais apareçam nele. Nesse caso, é só esperar 
+        e tentar de novo depois de alguns dias.
+      </p>
+
+      <h3 class="pergH3">
+        Quando eu vou receber meus produtos?
+      </h3> 
+
+      <p>
+        Como os produtos são importados, eles levam um prazo entre 2 e 6 semanas para 
+        chegar até seu endereço.
+      </p>
+
+      <h3 class="pergH3">
+        Existe algum risco no envio? Como funciona o processo de vocês? 
+      </h3>
+      
+      <p>
+        <strong>A entrega é segura e 100% garantida</strong>. 
+        Os produtos são enviados de nossos centros de distribuição na Europa, 
+        EUA e também Ásia. <br>O trajeto inicial é feito por uma transportadora no 
+        país de origem, até chegar no Brasil. O restante é feito pelos Correios.
+      </p>
+
+    </section>
+
+  </main>
+  <footer>
+		<div class="rodape">
+  
+		  <div class="atendimento">
+			<h1 class="title-atendimento">ATENDIMENTO AO CLIENTE</h1>
+			<ul>
+			  <li class="nav-atend"><a href="./sobre nos.html" class="link-atend">Sobre Nós</a></li>
+			  <li class="nav-atend"><a href="./fale conosco.html" class="link-atend">Fale Conosco</a></li>
+			  <li class="nav-atend"><a href="./politica de privacidade.html" class="link-atend">Política de Privacidade</a></li>
+			  <li class="nav-atend"><a href="./politica de devolucao.html" class="link-atend">Política de Devolução</a></li>
+			  <li class="nav-atend"><a href="./politica de envio e entrega.html" class="link-atend">Política de Envio & Entrega</a></li>
+			  <li class="nav-atend"><a href="./perguntas e respostas.html" class="link-atend">Perguntas Frequentes</a></li>
+			</ul>
+		  </div>
+		  
+		  <div class="categorias">
+			<h1 class="title-categorias">PRINCIPAIS CATEGORIAS</h1>
+			<ul>
+			  <li class="nav-cate"><a href="#" class="link-cate">Casa & Jardim</a></li>
+			  <li class="nav-cate"><a href="#" class="link-cate">Moda</a></li>
+			  <li class="nav-cate"><a href="#" class="link-cate">Bebês & Crianças</a></li>
+			  <li class="nav-cate"><a href="#" class="link-cate">Pet Shop</a></li>
+			  <li class="nav-cate"><a href="#" class="link-cate">Tecnologia</a></li>
+			  <li class="nav-cate"><a href="#" class="link-cate">Esportes & Lazer</a></li>
+			</ul>
+		  </div>
+		  
+		  <div class="logo-contatos">
+			<li class="title-siga">SIGA-NOS</li>
+			<li class="icon-media"><i class="bi bi-instagram"></i> Instagram</li> 
+			<li  class="icon-media"><i class="bi bi-tiktok"></i> Tiktok</li> 
+			<li  class="icon-media"><i class="bi bi-facebook"></i> Facebook</li>
+		  </div>
+  
+		  <div class="pagamento">
+			<h1 class="title-pagamento">PAGAMENTO</h1>
+			<span class="bandeiras"><img src="./site/assets/img/bandeiras de cartões.png"></span>
+		  </div>
+  
+		  <div class="app">
+			<li class="title-app">BAIXAR O APP</li>
+			<span class="icon-app"><a href="./login.html" class="link-app"><img src="./site/assets/img/logo app store.png"></a></span>
+			<span class="icon-app"><a href="./login.html" class="link-app"><img src="./site/assets/img/logo google play.png"></a></span>
+		  </div>
+		</div>
+  
+		<div class="text-rodape">
+		  <p>© 2024 Todos os direitos reservados. Infinity Shop LTDA.</p>
+		</div>
+  
+	</footer>   
+</body>
+</html>

@@ -1,0 +1,147 @@
+main{
+    padding: 20px 150px;
+}
+
+.title-fale{
+    font-size: 21px;
+    color: #080B3B;
+}
+.contato , .chat , .email, .importante{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: justify;
+}
+
+.contato p, .chat p, .email p{
+    font-size: 16px;
+    color: #535358;
+    padding-top: 5px;
+}
+
+.contato ul{
+    padding-top: 5px;
+}
+
+.contato li{
+    list-style: none;
+    color:#080B3B;
+    font-weight: 430;
+    margin-bottom: 3px; 
+}
+
+.importante li{
+    list-style: none;
+    color:#080B3B;
+    font-weight: 430;
+    margin-bottom: 8px;
+    
+}
+
+.text-import{
+    font-size: 18px;
+    font-weight: 430;
+    color: #080B3B;
+}
+
+.importante ul{
+    padding-top: 10px;
+}
+
+i{
+    margin-right: 6px;
+}
+
+.contatos button{
+    background-color: #080B3B;
+    color: #fff;
+    border-radius: 20px;
+    border: none;
+    padding: 8px 15px;
+    font-size: 14px;
+}
+
+.contatos button:hover{
+    background-color: #080b3bec;
+    cursor: pointer;
+}
+
+.contatos i{
+    color: #fff;
+}
+
+
+.formulario {
+    display: flex;
+    width: 350px;
+    padding-left: 0px;
+    margin-top: 30px;
+  }
+
+  .text-form {
+    width: 350px;
+    margin-top: 5px;
+    text-align: left;
+    z-index: 1;
+  }
+
+  form div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #535358;
+    margin-bottom: 20px;
+    font-size: 16px;
+    z-index: 1;
+  }
+  
+  form input, form textarea {
+    background-color: #f1f1f1;
+    padding: 15px;
+    border: 0.1px;
+    border-radius: 10px;
+    z-index: 1;
+  }
+
+  .enviar input {
+    background-color: #080B3B;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+  }
+  
+  .enviar input:hover {
+    background-color: #1a2075;
+  }
+
+  .error-message {
+    color: #FF6900;
+    font-size: 12px;
+    margin-top: 5px;
+  }
+  
+  .valid {
+    border: 2px solid #080B3B;
+    color: #080B3B;
+  }
+  
+  .invalid {
+    border: 2px solid #FF6900;
+    color: #FF6900;
+  }
+  
+  .formulario h1 {
+    color: #080B3B;
+    font-size: 22px;
+    text-align: left;
+    z-index: 1;
+  }
+
+  form {
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 0px 20px;
+    padding-top: 15px;
+    z-index: 1;
+    box-shadow: 0px 3px 8px #b8b8b8;
+  }

@@ -1,0 +1,41 @@
+main{
+    padding: 40px 150px;
+}
+
+.envioH1{
+    font-size: 21px;
+    color: #080B3B;
+}
+
+.envioH2{
+    font-size: 19px;
+    color: #080B3B;
+    padding-top: 30px;
+}
+
+.envioH3{
+    font-size: 18px;
+    color: #080B3B;
+    padding-top: 30px;
+}
+
+
+.text-poli-envio p{
+    text-align: justify;
+    padding-top: 5px;
+    font-size: 16px;
+    color: #535358;
+}
+
+.text-poli-envio ul{
+    list-style: none;
+    color: #535358;
+    
+}
+
+.text-poli-envio span{
+    padding-top: 5px;
+    font-weight: 600;
+    color: #535358;
+    
+}

@@ -1,0 +1,28 @@
+main{
+    padding: 40px 150px;
+    
+}
+
+.pergH1{
+    font-size: 21px;
+    color: #080B3B;
+    
+}
+
+.pergH2{
+    font-size: 18px;
+    color: #080B3B;
+    padding-top: 40px;
+}
+
+.pergH3{
+    font-size: 16px;
+    color: #080B3B;
+    padding-top: 14px;
+}
+
+.text-per p{
+    text-align: justify;
+    padding-top: 5px;
+    color: #535358;
+}

@@ -1,0 +1,113 @@
+body {
+    margin: 0;
+    background-color: #ffffff;
+  }
+  
+  main {
+    height: 950px;
+  }
+  
+  .sobre-nos {
+    padding: 35px 150px;
+    text-align: justify;
+    color: #535358;
+  }
+  
+  .sobre-nos h1 {
+    color: #080B3B;
+  }
+  
+  .sobre-nos strong {
+    color: #080B3B;
+  }
+  
+  form {
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 0px 20px;
+    padding-top: 15px;
+    z-index: 1;
+    box-shadow: 0px 3px 8px #b8b8b8;
+  }
+  
+  .formulario {
+    display: flex;
+    width: 350px;
+    padding-left: 55px;
+    margin-top: -547px;
+  }
+  
+  .new img {
+    margin-top: 33px;
+    max-width: 100%;
+    z-index: -1;
+    box-shadow: 0px 3px 8px #b8b8b8;
+    border-radius: 20px;
+  }
+  
+  .novidade {
+    display: block;
+    align-items: center;
+    z-index: 1;
+  }
+  
+  .formulario h1 {
+    color: #080B3B;
+    font-size: 22px;
+    text-align: left;
+    z-index: 1;
+  }
+  
+  .text-form {
+    width: 350px;
+    margin-top: 5px;
+    text-align: left;
+    z-index: 1;
+  }
+  
+  form div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #535358;
+    margin-bottom: 20px;
+    font-size: 16px;
+    z-index: 1;
+  }
+  
+  form input, form textarea {
+    background-color: #f1f1f1;
+    padding: 15px;
+    border: 0.1px;
+    border-radius: 10px;
+    z-index: 1;
+  }
+  
+  .enviar input {
+    background-color: #080B3B;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+  }
+  
+  .enviar input:hover {
+    background-color: #1a2075;
+  }
+  
+  .error-message {
+    color: #FF6900;
+    font-size: 12px;
+    margin-top: 5px;
+  }
+  
+  .valid {
+    border: 2px solid #080B3B;
+    color: #080B3B;
+  }
+  
+  .invalid {
+    border: 2px solid #FF6900;
+    color: #FF6900;
+  }
+  

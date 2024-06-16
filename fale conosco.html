@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<head>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="./site/assets/css/menu.css">
+    <link rel="stylesheet" href="./site/assets/css/rodape.css">
+    <link rel="stylesheet" href="./site/assets/css/main.css">
+	<link rel="stylesheet" href="./site/assets/css/fale-conosco.css">
+	<script src="./site/assets/js/rodape_respon-javascript.js" defer></script>
+    <script src="./site/assets/js/menu.js" defer></script>
+	<script src="./site/assets/js/form.js" defer></script>
+	<title>Fale Conosco</title>
+</head>
+<body>
+	<header>
+		<section>
+			<nav class="nav-bar">
+				<div class="logo">
+					<a href="./index.html" class="nav-home">
+						<img src="./site/assets/img/logo_empresa_cor.png" alt="Logo Infinity">
+					</a>
+				</div>
+	
+				<div class="barra">
+					<input id="searchInput" class="pesquisa" placeholder="Pesquisar produto...">
+				</div>
+	
+				<div class="nav-list">
+					<ul>
+						<li class="nav-item"><a href="#" class="nav-link"><i class="bi bi-person-circle"></i>Entrar</a></li>
+						<li class="nav-item"><a href="#" class="nav-link">|</a></li>
+						<li class="nav-item"><a href="#" class="nav-link"><i class="bi bi-cart-check-fill"></i>Carrinho</a></li>
+					</ul>
+				</div>
+	
+				<div class="mobile-menu-icon">
+					<button onclick="toggleMobileMenu()"><i class="bi bi-list"></i></button>
+				</div>
+			</nav>
+	
+			<div class="mobile-menu">
+				<ul class="nav-list">
+					<li class="nav-item"><a href="#" class="nav-link"><i class="bi bi-person-circle"></i>Entrar</a></li>
+					<li class="nav-item"><a href="#" class="nav-link"><i class="bi bi-cart-check-fill"></i>Carrinho</a></li>
+				</ul>
+				<div class="barra">
+					<input class="pesquisa" placeholder="Pesquisar produto.">
+				</div>
+			</div>
+		</section>
+	  </header>
+	<main>
+		<section>
+			<div class="contato">
+				<h2 class="title-fale"><i class="bi bi-headset"></i>Contato</h2>
+				<p>
+				  Você pode entrar em contato com o <strong>Atendimento ao Cliente InfinityShop</strong>  
+				  através:
+				</p>
+				<ul>
+				  <li>Chat com atendentes online, em seu aplicativo InfinityShop.</li>
+				  <li>E-mail, todos os dias, 24 horas por dia.</li>						
+				</ul>
+		    </div> 
+			
+			<div class="chat">
+				<h2 class="title-fale"><i class="bi bi-chat-heart"></i>Chat Online</h2>
+				<p>
+					Para falar com nossos atendentes online em seu aplicativo, vá para a guia <strong>"Eu"</strong>
+					Selecione <strong>"Chat InfinityShop"</strong> Selecione <strong>"Bate Papo com Atendente"</strong> para começar a conversar.
+					Nosso atendimento através do chat funciona de segunda a sexta, das 08h às 22h e, aos 
+					sábados, das 08h às 20h (Horário de Brasília). Para vendedores, nosso atendimento por 
+					chat é das 08h às 20h (Horário de Brasília), de segunda a sexta.
+				</p>
+			</div>
+			<div class="email">
+				<h2 class="title-fale"><i class="bi bi-envelope-exclamation"></i>Email</h2>
+				<p>
+					Preencha o email com o nome de usuário da sua conta InfinityShop e uma breve 
+					declaração sobre sua solicitação, usaremos essas informações para te atender 
+					de uma maneira mais eficiente. Note, também, que você pode enviar solicitações 
+					por este <strong>canal 24h por dia.</strong>
+				</p>
+				<div class="formulario">
+					<form id="Fale conosco">
+					  <h1>Fale conosco</h1>
+					  <div class="text-form">
+						Deixe sua sugestão, dúvidas ou elogio!
+					  </div> 
+				
+					  <div>
+						<label for="name">Nome:</label>
+						<input type="text" id="name" placeholder="Digite seu nome" name="namec" required/>
+						<span id="nameError" class="error-message"></span>
+					  </div>
+				
+					  <div>
+						<label for="e-mail">E-mail:</label>
+						<input type="email" id="e-mail" placeholder="Digite o seu e-mail" name="e-mail" required/>
+					  </div>
+
+					  
+					  <div class="field required">
+						<label>Sugestão</label>
+						<textarea maxlength="6000" placeholder="Escreva uma sugestão para nós" name="sugestao"></textarea>
+					</div>
+					  
+				
+					  <div class="enviar">
+						<input type="submit" value="Enviar">
+					  </div>
+					</form>
+				  </div>
+			<div class="importante">
+				<span class="text-import">Importante!</span>
+						<ul>
+							<li>
+								Para dúvidas relacionadas a conta InfinityShopPay, pagamentos ou reembolso,<br/>
+								você também pode entrar em contato conosco através do nosso canal telefônico.
+							</li>
+							<li>
+								Se precisar entrar em contato com a gente a qualquer horário do dia, 
+								nos envie<br/> um email, este canal está aberto 24 horas, todos os dias.
+					
+							</li>
+					    </ul>
+			</div>
+
+			<div class="contatos">
+			
+				<button class="link">
+					<i class="bi bi-envelope-check-fill"></i>contato@infinityshop.com.br
+				</button>
+			</div> 
+		</section>
+
+	</main>
+	<footer>
+		<div class="rodape">
+  
+		  <div class="atendimento">
+			<h1 class="title-atendimento">ATENDIMENTO AO CLIENTE</h1>
+			<ul>
+			  <li class="nav-atend"><a href="./sobre nos.html" class="link-atend">Sobre Nós</a></li>
+			  <li class="nav-atend"><a href="./fale conosco.html" class="link-atend">Fale Conosco</a></li>
+			  <li class="nav-atend"><a href="./politica de privacidade.html" class="link-atend">Política de Privacidade</a></li>
+			  <li class="nav-atend"><a href="./politica de devolucao.html" class="link-atend">Política de Devolução</a></li>
+			  <li class="nav-atend"><a href="./politica de envio e entrega.html" class="link-atend">Política de Envio & Entrega</a></li>
+			  <li class="nav-atend"><a href="./perguntas e respostas.html" class="link-atend">Perguntas Frequentes</a></li>
+			</ul>
+		  </div>
+		  
+		  <div class="categorias">
+			<h1 class="title-categorias">PRINCIPAIS CATEGORIAS</h1>
+			<ul>
+			  <li class="nav-cate"><a href="#" class="link-cate">Casa & Jardim</a></li>
+			  <li class="nav-cate"><a href="#" class="link-cate">Moda</a></li>
+			  <li class="nav-cate"><a href="#" class="link-cate">Bebês & Crianças</a></li>
+			  <li class="nav-cate"><a href="#" class="link-cate">Pet Shop</a></li>
+			  <li class="nav-cate"><a href="#" class="link-cate">Tecnologia</a></li>
+			  <li class="nav-cate"><a href="#" class="link-cate">Esportes & Lazer</a></li>
+			</ul>
+		  </div>
+		  
+		  <div class="logo-contatos">
+			<li class="title-siga">SIGA-NOS</li>
+			<li class="icon-media"><i class="bi bi-instagram"></i> Instagram</li> 
+			<li  class="icon-media"><i class="bi bi-tiktok"></i> Tiktok</li> 
+			<li  class="icon-media"><i class="bi bi-facebook"></i> Facebook</li>
+		  </div>
+  
+		  <div class="pagamento">
+			<h1 class="title-pagamento">PAGAMENTO</h1>
+			<span class="bandeiras"><img src="./site/assets/img/bandeiras de cartões.png"></span>
+		  </div>
+  
+		  <div class="app">
+			<li class="title-app">BAIXAR O APP</li>
+			<span class="icon-app"><a href="./login.html" class="link-app"><img src="./site/assets/img/logo app store.png"></a></span>
+			<span class="icon-app"><a href="./login.html" class="link-app"><img src="./site/assets/img/logo google play.png"></a></span>
+		  </div>
+		</div>
+  
+		<div class="text-rodape">
+		  <p>© 2024 Todos os direitos reservados. Infinity Shop LTDA.</p>
+		</div>
+  
+	</footer>
+</body>
+</html>

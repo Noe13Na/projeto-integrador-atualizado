@@ -1,0 +1,47 @@
+main{
+    padding: 20px 150px;
+    height: 1350px;
+   
+}
+
+.titleH1{
+    font-size: 21px;
+    color: #080B3B;
+    padding-top: 40px;
+}
+
+.titleH2{
+    font-size: 18px;
+    color: #080B3B;
+    padding-top: 10px;
+}
+
+.text-pol p{
+    text-align: justify;
+    padding-top: 5px;
+    color: #535358;
+}
+
+
+
+/* Media query para telas menores */
+@media screen and (max-width: 768px) {
+    main {
+        padding: 20px 10px; /* Reduzir o padding em telas menores */
+        height: auto; /* Remover altura fixa para permitir o conteúdo fluir */
+    }
+
+    .titleH1 {
+        font-size: 18px; /* Reduzir o tamanho da fonte para telas menores */
+        padding-top: 20px; /* Aumentar o espaçamento para telas menores */
+    }
+
+    .titleH2 {
+        font-size: 16px; /* Reduzir o tamanho da fonte para telas menores */
+        padding-top: 10px; /* Aumentar o espaçamento para telas menores */
+    }
+
+    .text-pol p {
+        padding-top: 5px; /* Aumentar o espaçamento para telas menores */
+    }
+}

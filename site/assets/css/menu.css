@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    background-color: #080B3B;
+    box-shadow: 0px 3px 8px #dbdbdb;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 150px;
+}
+
+.barra {
+    width: 480px;
+    display: flex;
+}
+
+.barra input,
+.barra textarea {
+    padding: 12px 20px;
+    border-radius: 15px;
+    width: 100%;
+    border: none;
+}
+
+.logo img a {
+    cursor: pointer;
+}
+
+.logo img {
+    height: 70px;
+}
+
+.nav-list {
+    display: flex;
+}
+
+.nav-list ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+.nav-list i {
+    margin-right: 6px;
+    color: #f79f61;
+}
+
+.nav-item {
+    margin: 0 10px;
+}
+
+.nav-link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-size: 18px;
+    color: #fff;
+    font-weight: 400;
+}
+
+.mobile-menu-icon {
+    display: none;
+}
+
+.mobile-menu {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media screen and (max-width: 730px) {
+    .nav-bar {
+        padding: 1.5rem 4rem;
+    }
+
+    .barra {
+        width: auto;
+        display: none;
+    }
+
+    .nav-item {
+        display: none;
+    }
+
+    .mobile-menu-icon {
+        display: block;
+    }
+
+    .mobile-menu-icon button {
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+    }
+
+    .mobile-menu.open {
+        display: flex;
+    }
+
+    .mobile-menu.open .nav-list {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .mobile-menu.open .nav-item {
+        display: flex;
+        align-items: center;
+        
+    }
+
+    .mobile-menu.open .barra {
+        display: flex;
+        width: 360px;
+        margin-bottom: 30px;
+        margin-top: 10px;
+    }
+}

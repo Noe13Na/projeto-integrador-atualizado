@@ -1,0 +1,382 @@
+body {
+    margin: 0;
+    background-color: #f7f7f7;
+}
+
+.bottom-submenu nav ul {
+    padding: 15px 170px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+    flex-wrap: wrap;
+    z-index: 1; 
+}
+
+i {
+    color: #FF6900;
+}
+
+.drop-houver a i {
+    margin-left: 3px;
+} 
+
+li i {
+    margin-right: 3px;
+}
+
+.bottom-submenu nav ul li a {
+    color: #535358;
+    font-weight: 410;
+    font-size: 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 5px 5px;
+    display: block;
+    transition: .2s;
+    z-index: 1;
+}
+
+.bottom-submenu nav ul li a:hover {
+    background-color: #080B3B;
+    color: #fff;
+    z-index: 1;    
+}
+
+.drop-houver .categ-m .categ-f {
+    position: relative;  
+}
+
+.drop-houver .drop1, .drop2, .drop3, .drop4, .drop5, .drop6 {
+    position: absolute;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    max-width: 100%;
+    height: 0;
+    overflow: hidden;
+    transition: .5s;
+    z-index: 1;
+}
+
+.drop-houver .drop1, .drop3, .drop4, .drop5, .drop6 a {
+    color: #535358;
+    font-size: 14px;  
+}
+
+.categ-f, .categ-m {
+    color: #5c5c5c;
+    font-size: 14px; 
+    z-index: 5;
+}
+
+.drop-houver:hover .drop1 {
+    height: 135px;
+    width: auto;
+}
+
+.drop-houver:hover .drop2 {
+    height: 343px;
+    z-index: 5;
+}
+
+.drop-houver:hover .categ-m {
+    height: 150px;
+}
+
+.drop-houver:hover .categ-f {
+    height: 2700px;
+    z-index: 5;
+}
+
+.drop-houver:hover .drop3 {
+    height: 135px;
+    width: 150px;
+}
+
+.drop-houver:hover .drop4 {
+    height: 134px;
+    width: 91px;
+}
+
+.drop-houver:hover .drop5 {
+    height: 135px;
+    width: 106px;
+}
+
+.drop-houver:hover .drop6 {
+    height: 135px;
+    width: 145px;
+}
+
+.text-inicio h1 {
+    padding: 10px 150px;
+    margin-top: 30px;
+    text-align: center;
+    font-size: 21px;
+    color: #080B3B;
+}
+
+.text-inicio p {
+    padding: 5px 180px;
+    text-align: center;
+    color: #080B3B;
+    font-size: 16px;
+}
+
+.container {
+    padding: 20px 150px;
+    margin: auto;
+    text-align: center;
+    padding-top: 20px;
+    transition: transform .5s;
+}
+
+.icon-cart svg {
+    width: 40px;
+    color: #080B3B;
+    cursor: pointer;
+}
+
+.list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 0;
+}
+
+.list .title {
+    font-size: 14px;
+    color: #080B3B;
+}
+
+.list .icon-cart {
+    position: relative;
+}
+
+.list .icon-cart span {
+    display: flex;
+    font-size: 12px;
+    width: 18px;
+    height: 18px;
+    background-color: #FF6900;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    border-radius: 50%;
+    position: absolute;
+    top: 13%;
+    right: 28px;
+    cursor: pointer;
+}
+
+.list-product .item1 img {
+    width: 190px;
+}
+
+.list-product {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.list-product .item1 {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 3px 8px #dbdbdb;
+}
+
+.list-product .item1 h2 {
+    font-weight: 600;
+    font-size: 18px;
+    color: #080B3B;
+}
+
+.list-product .item1 .preco {
+    font-weight: 600;
+    font-size: 16px;
+    color: #080B3B;
+    margin-top: 2px;
+}
+
+.list-product .item1 button {
+    background-color: #FF6900;
+    color: #fff;
+    font-size: 14px;
+    padding: 5px 10px;
+    border-radius: 20px;
+    margin-top: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.cart-tab {
+    width: 400px;
+    background-color: #fffffff6;
+    color: #080B3B;
+    position: fixed;
+    inset: 0 -400px 0 auto;
+    display: grid;
+    grid-template-rows: 70px 1fr 70px;
+    transition: inset 0.3s ease;
+}
+
+body.show-cart .cart-tab {
+    inset: 0 0 0 auto;
+}
+
+.cart-tab h1 {
+    padding: 25px;
+    margin: 0;
+    font-size: 21px;
+    font-weight: 410;
+}
+
+.cart-tab .btn {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.cart-tab .btn button {
+    background-color: #FF6900;
+    color: #fff;
+    border: none;
+    font-weight: 420;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.cart-tab .btn .close {
+    background-color: #080b3b;
+    color: #fff;
+    
+}
+
+.cart-tab .listCart .item1 img {
+    width: 100%;
+    padding-left: 15px;
+}
+
+.cart-tab .listCart .item1 {
+    display: grid;
+    grid-template-columns: 60px 150px 50px 1fr;
+    gap: 10px;
+    text-align: center;
+    align-items: center;
+}
+
+.listCart .quantid span {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-color: #080B3B;
+    color: #fff;
+    font-weight: 500;
+    font-size: 16px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.listCart .quantid span:nth-child(2) {
+    background-color: transparent;
+    color: #080B3B;
+}
+
+.listCart .item1:nth-child(even) {
+    background-color: #eee1;
+}
+
+.listCart {
+    overflow: auto;
+}
+
+.listCart::-webkit-scrollbar {
+    width: 0;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 1024px) {
+    .bottom-submenu nav ul {
+        padding: 15px 50px;
+    }
+
+    .text-inicio h1, .text-inicio p {
+        padding: 0 50px;
+    }
+
+    .container {
+        padding: 20px 50px;
+    }
+
+    .list-product {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+    .bottom-submenu nav ul {
+        padding: 15px 10px;
+        flex-direction: column;
+    }
+
+    .text-inicio h1, .text-inicio p {
+        padding: 0 10px;
+    }
+
+    .container {
+        padding: 20px 10px;
+    }
+
+    .list {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .list-product {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .cart-tab {
+        width: 80%;
+        right: 10%;
+        left: auto;
+        inset: 0 -100% 0 auto;
+    }
+
+    body.show-cart .cart-tab {
+        inset: 0 10% 0 auto;
+    }
+
+    .list .icon-cart span {
+        right: -10px;  /* Ajustar posição para a direita */
+             /* Ajustar posição para cima */
+    }
+}
+
+@media (max-width: 480px) {
+    .list-product {
+        grid-template-columns: 1fr;
+    }
+
+    .bottom-submenu nav ul {
+        padding: 15px 5px;
+    }
+
+    .text-inicio h1 {
+        font-size: 16px;
+    }
+
+    .text-inicio p {
+        font-size: 12px;
+        
+    }
+
+    .container {
+        padding: 10px 5px;
+    }
+
+    .cart-tab {
+        width: 90%;
+       
+    }
+}

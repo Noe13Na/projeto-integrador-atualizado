@@ -1,0 +1,148 @@
+/* Estilos iniciais para tela desktop */
+footer {
+    background-color: #080B3B;
+    color: #ffffff;
+    padding: 20px 150px;
+    min-height: 345px; /* Alterado de 'height' para 'min-height' */
+    margin-top: 20px;
+}
+
+.rodape {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.title-categorias,
+.title-atendimento,
+.title-pagamento,
+.title-siga,
+.title-app {
+    font-size: 14px;
+    font-weight: 400;
+    margin: 0px 0px 30px;
+    cursor: pointer; /* Adicione isso para indicar que os títulos são clicáveis */
+}
+
+.nav-cate,
+.nav-atend,
+.icon-app,
+.icon-media,
+.bandeiras {
+    list-style: none;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.link-cate,
+.link-atend {
+    text-decoration: none;
+    color: #ffffff;  
+}
+
+.logo-contatos {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+}
+
+.logo-contatos li {
+    list-style: none;
+}
+
+.logo-contatos i {
+    padding-top: 5px;
+    color: #ffffff;
+}
+
+.logo-contatos .icon-media {
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.bandeiras img {
+    height: 100px;
+}
+
+.app li {
+    list-style: none;
+}
+
+.app .icon-app {
+    display: flex;
+    flex-direction: column;
+}
+
+.icon-app img {
+    height: 35px;
+}
+
+
+.link-app a {
+    cursor: pointer;    
+}
+
+.text-rodape {
+    text-align: center;
+    padding-top: 55px;
+    font-size: 12px;
+}
+
+/* Estilos para tela reduzida */
+@media screen and (max-width: 730px) {
+    /* Oculta os elementos filhos por padrão */
+    .nav-atend,
+    .nav-cate,
+    .link-app,
+    .icon-media,
+    .bandeiras {
+        display: none;
+    }
+
+    /* Exibe os elementos filhos quando o menu é aberto */
+    .mobile-menu.open .nav-atend,
+    .mobile-menu.open .nav-cate,
+    .mobile-menu.open .link-app,
+    .mobile-menu.open .icon-media,
+    .mobile-menu.open .bandeiras {
+        display: block;
+        margin-bottom: 8px; /* Adiciona espaçamento entre os elementos */
+    }
+
+    /* Estiliza os títulos */
+    .title-atendimento,
+    .title-siga,
+    .title-pagamento,
+    .title-app,
+    .title-categorias {
+        font-size: 15px; /* Reduz o tamanho da fonte */
+        margin-bottom: 8px; /* Adiciona espaçamento vertical entre os títulos */
+    }
+
+    /* Estiliza o rodapé */
+    .rodape {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start; /* Alinha os itens à esquerda */
+        gap:10px; /* Adiciona espaçamento vertical entre os elementos */
+    }
+
+    /* Estiliza o ícone do menu */
+    .rodape-icon {
+        display: block;
+        position: relative;
+        z-index: 999;
+        cursor: pointer;
+    }
+
+    .rodape-icon button {
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+    }
+
+    .mobile-menu-icon i{
+        color: #ffffff;
+        font-size: 54px;
+    }
+}

@@ -1,0 +1,122 @@
+[
+    {
+        "id": 1,
+        "name": "Headset Gamer",
+        "preco": "99,90",
+        "image": "./site/assets/img/listaProdutos/fone_semfundo.png"
+    },
+    {
+        "id": 2,
+        "name": "Echo Dot 5ª",
+        "preco": "129,90",
+        "image": "./site/assets/img/listaProdutos/alexa_semfundo.png"
+    },
+    {
+        "id": 3,
+        "name": "Smartwatch Haylou",
+        "preco": "179,90",
+        "image": "./site/assets/img/listaProdutos/relogio_semfundo.png"
+    },
+    {
+        "id": 4,
+        "name": "Caixa Amplificadora",
+        "preco": "249,90",
+        "image": "./site/assets/img/listaProdutos/caixa_semfundo.png"
+    },
+    {
+        "id": 5,
+        "name": "Joystick Sem Fio",
+        "preco": "49,90",
+        "image": "./site/assets/img/listaProdutos/joy_semfundo.png"
+    },
+    {
+        "id": 6,
+        "name": "Nintendo Switch",
+        "preco": "2.249,90",
+        "image": "./site/assets/img/listaProdutos/nintendo_semfundo.png"
+    },
+    {
+        "id": 7,
+        "name": "Pes 2024 - E-Football",
+        "preco": "69,90",
+        "image": "./site/assets/img/listaProdutos/jogo_semfundo.png"
+    },
+    {
+        "id": 8,
+        "name": "Uncharted The Lost",
+        "preco": "119,90",
+        "image": "./site/assets/img/listaProdutos/jogo2_semfundo.png"
+    },
+    {
+        "id": 9,
+        "name": "Bolsa Maternidade",
+        "preco": "199,90",
+        "image": "./site/assets/img/listaProdutos/bolsa_semfundo.png"
+    },
+    {
+        "id": 10,
+        "name": "Kit Mamadeira Nuk",
+        "preco": "99,90",
+        "image": "./site/assets/img/listaProdutos/mamadeira_semfundo.png"
+    },
+    {
+        "id": 11,
+        "name": "Fralda Babysec XXG",
+        "preco": "59,90",
+        "image": "./site/assets/img/listaProdutos/fraldaBebe_semfundo.png"
+    },
+    {
+        "id": 12,
+        "name": "Lenço Umedecido",
+        "preco": "29,90",
+        "image": "./site/assets/img/listaProdutos/lenco_semfundo.png"
+    },
+    {
+        "id": 13,
+        "name": "Cama Pet",
+        "preco": "79,90",
+        "image": "./site/assets/img/listaProdutos/cama_semfundo.png"
+    },
+    {
+        "id": 14,
+        "name": "Fralda SuperSecão",
+        "preco": "59,90",
+        "image": "./site/assets/img/listaProdutos/fralda_semfundo.png"
+    },
+    {
+        "id": 15,
+        "name": "Kit Bolinhas Pet",
+        "preco": "19,90",
+        "image": "./site/assets/img/listaProdutos/bolinha_semfundo.png"
+    },
+    {
+        "id": 16,
+        "name": "Macaco Chalesco Pet",
+        "preco": "49,90",
+        "image": "./site/assets/img/listaProdutos/macaco_semfundo.png"
+    },
+    {
+        "id": 17,
+        "name": "Par de Halteres",
+        "preco": "39,90",
+        "image": "./site/assets/img/listaProdutos/halteres_semfundo.png"
+    },
+    {
+        "id": 18,
+        "name": "Caneleira de Peso - Par",
+        "preco": "49,90",
+        "image": "./site/assets/img/listaProdutos/caneleira_semfundo.png"
+    },
+    {
+        "id": 19,
+        "name": "Whey Protein 1kg",
+        "preco": "89,90",
+        "image": "./site/assets/img/listaProdutos/whey_semfundo.png"
+    },
+    {
+        "id": 20,
+        "name": "Pré-Treino 150g",
+        "preco": "59,90",
+        "image": "./site/assets/img/listaProdutos/pretreino_semfundo.png"
+    }
+]

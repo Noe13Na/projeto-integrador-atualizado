@@ -1,0 +1,33 @@
+main{
+    padding: 40px 150px;
+    
+}
+
+.titleH1{
+    font-size: 21px;
+    color: #080B3B;
+}
+
+.titleH2{
+    font-size: 18px;
+    color: #080B3B;
+    padding-top: 30px;
+}
+
+.text-politica p{
+    text-align: justify;
+    padding-top: 5px;
+    font-size: 16px;
+    color: #535358;
+}
+
+.text-politica ul{
+   list-style: none;
+   font-weight: 420;
+   color: #080B3B;
+   padding-top: 8px;
+}
+
+.text-politica li{
+   margin-bottom: 5px;
+ }
